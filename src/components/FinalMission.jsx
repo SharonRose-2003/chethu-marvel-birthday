@@ -25,7 +25,7 @@ const [showBirthday, setShowBirthday] = useState(false);
 const [showPhotos, setShowPhotos] = useState(false);
   // TRUE while you're building/testing.
   // Change to FALSE before sending the website to Chethu.
-  const PREVIEW_MODE = true;
+  const PREVIEW_MODE = false;
 
 useEffect(() => {
   const checkBirthday = () => {
